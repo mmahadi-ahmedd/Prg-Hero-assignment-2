@@ -107,7 +107,7 @@ html,body{
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
     height: 50%;
-    background-image: url(/styles/assets/bg.png);
+    background-image: url(./styles/assets/bg.png);
 }
 .card{
     height: 20%;
@@ -189,7 +189,7 @@ html,body{
 }
 .story-section{
     margin: 0 auto;
-    background-image: url(/styles/assets/bg.png);
+    background-image: url(./styles/assets/bg.png);
     background: linear-gradient(to top, rgb(255, 166, 0), 10%, white);
 }
 .story-section img{
@@ -228,7 +228,7 @@ html,body{
     display: none;
   }
   .story-card{
-    background-image: url(/styles/assets/bg.png);
+    background-image: url(./styles/assets/bg.png);
     
     display: grid;
     grid-template-areas: 
