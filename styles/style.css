@@ -64,6 +64,9 @@ html,body{
     color: white;
     font-size: 20px;
 }
+.menu-btn{
+    display: none;
+  }
 .des{
     display: none;
 }
@@ -107,7 +110,7 @@ html,body{
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
     height: 50%;
-    background-image: url(./styles/assets/bg.png);
+    background-image: url(./assets/bg.png);
 }
 .card{
     height: 20%;
@@ -190,6 +193,7 @@ html,body{
 .story-section{
     margin: 0 auto;
     background-image: url(./styles/assets/bg.png);
+    background-image: url(./assets/bg.png);
     background: linear-gradient(to top, rgb(255, 166, 0), 10%, white);
 }
 .story-section img{
@@ -229,7 +233,7 @@ html,body{
   }
   .story-card{
     background-image: url(./styles/assets/bg.png);
-    
+    background-image: url(./assets/bg.png);
     display: grid;
     grid-template-areas: 
     "story-1 story-1 story-2 story-3"
@@ -320,6 +324,12 @@ html,body{
   }
   #main>#nav h5, h3{
     display: none;
+  }
+  .menu-btn{
+    display: initial;
+    top: 0;
+    right: 0;
+    
   }
   #main>#nav>.contact-btn{
     display: none;
