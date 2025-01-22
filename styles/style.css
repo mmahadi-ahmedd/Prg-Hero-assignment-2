@@ -6,4 +6,353 @@
 html,body{
     height: 100%;
     width: 100%;
+    padding: 0% 4%;
+}
+.quicksand-fullfont {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #main{
+    margin: 0 auto;
+  }
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 50px 0px 0px ;
+}
+.schoolname{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+}
+.nav-btn{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 0px 0px -250px;
+}
+#nav-btn-home{
+    color: orange;
+}
+#nav-btn-About{
+    color: skyblue;
+}
+#nav-btn-Facilites{
+    color: #05D4DF;
+}
+#nav-btn-Admission{
+    color: #5D58EF;
+}
+.contact-btn{
+    height:100%;
+    width: 10%;
+    
+}
+.contact-btn>button{
+    align-items: center;
+    justify-content: center;
+    padding: 15px 70px; 
+    border-radius: 12px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+.des{
+    display: none;
+}
+.banner-intro{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-intro>.description>h1{
+    padding: 10px 0 0 0;
+    font-size: 70px;
+}
+.banner-intro>.description>p{
+    padding: 10px 0 0 0;
+    font-size: 20px;
+}
+.banner-intro>.description>button{
+    margin: 30px 0 0 0;
+    padding: 25px 70px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    background-color: black;
+}
+#card-headline{
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    font-size: 45px;
+    font-weight: 800;
+}
+.cards-container{
+    display: flex;
+    margin: 0px auto;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    height: 50%;
+    background-image: url(/styles/assets/bg.png);
+}
+.card{
+    height: 20%;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.card img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-content h1,p,a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, white, 98%, aqua);
+    border-radius: 10px;
+    border:1px solid #05D4DF;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, white, 98%, orange);
+    border-radius: 10px;
+    border:1px solid orange;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, white, 98%, #8700FF);
+    border-radius: 10px;
+    border:1px solid #8700FF;
+}
+.arrow-button{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow-button button{
+    padding: 20px;
+    margin: 50px 10px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.arrow-button button:hover{
+    background-color: black;
+}
+.story-title{
+    width: 100%;
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.story-title h1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+.story-section{
+    margin: 0 auto;
+    background-image: url(/styles/assets/bg.png);
+    background: linear-gradient(to top, rgb(255, 166, 0), 10%, white);
+}
+.story-section img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.story-1,.story-2,.story-3,.story-4,.story-5{
+    margin: 10px 0px;
+}
+.story-1{
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+}
+.story-2,.story-3,.story-4,.story-5{
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+}
+.story-1{
+    grid-area: story-1;
+  }
+  .story-2{
+    grid-area: story-2;
+  }
+  .story-3{
+    grid-area: story-3;
+  }
+  .story-4{
+    grid-area: story-4;
+  }
+  .story-5{
+    grid-area: story-5;
+  }
+  .story-6,.story-7{
+    display: none;
+  }
+  .story-card{
+    background-image: url(/styles/assets/bg.png);
+    
+    display: grid;
+    grid-template-areas: 
+    "story-1 story-1 story-2 story-3"
+    "story-1 story-1 story-4 story-5"
+    ;
+  }
+  .story-btn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+
+  }
+  .story-btn button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+
+  }
+  .footer{
+    background-color: #01ACFD;
+  }
+  .footer-container{
+    height: 100%;
+    width: 100%;
+    padding: 5% 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-des{
+    height: 100%;
+    width: 30%;
+    color: white;
+  }
+  .footer-image{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }
+ .footer-abt{
+    color: white;
+    margin-bottom: auto;
+ }
+ .footer-abt h2{
+    font-size: 22px;
+ }
+ .footer-abt h1{
+    font-size: 15px;
+    margin: 15px 0;
+ }
+.footer-social{
+    font-size: 15px;
+    color: white;
+    margin-bottom: auto;
+}
+.footer-social>img{
+    margin-top: 30px;
+}
+
+
+/* media queria starting */
+
+
+@media screen and (max-width:576px){
+    .borderline{
+        padding-bottom: 7px;
+        border-bottom: 2px solid orange;
+    }
+  .banner-intro{
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #main>#nav h5, h3{
+    display: none;
+  }
+  #main>#nav>.contact-btn{
+    display: none;
+  }
+  .arrow-button{
+    display: none;
+  }
+  .cards-container{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .card{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .story-card{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+.story-1{
+    display: none;
+  }
+.story-2,.story-3,.story-4, .story-5{
+    margin: 5px auto;
+  }
+  .footer-container{
+    display: grid;
+    grid-template-columns: repeat(1);
+  }
+
 }
